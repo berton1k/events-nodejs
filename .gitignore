@@ -1,0 +1,10 @@
+.idea
+.env
+package-lock.json
+config.json
+node_modules
+google-credentials.json
+.tar
+.zip
+.7z
+.rar

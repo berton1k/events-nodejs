@@ -1,0 +1,150 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.0
+2 info using node@v21.7.3
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/container/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm install dotenv
+7 verbose argv "install" "dotenv"
+8 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2025-04-18T18_06_13_053Z-
+9 verbose logfile /home/container/.npm/_logs/2025-04-18T18_06_13_053Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest dotenv@^16.5.0
+15 silly packumentCache full:https://registry.npmjs.org/dotenv cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/dotenv 17ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/dotenv set size:238345 disposed:false
+18 silly placeDep ROOT dotenv@16.5.0 REPLACE for:  want: ^16.5.0
+19 warn EBADENGINE Unsupported engine {
+19 warn EBADENGINE   package: 'glob@11.0.1',
+19 warn EBADENGINE   required: { node: '20 || >=22' },
+19 warn EBADENGINE   current: { node: 'v21.7.3', npm: '10.9.0' }
+19 warn EBADENGINE }
+20 warn EBADENGINE Unsupported engine {
+20 warn EBADENGINE   package: 'jackspeak@4.1.0',
+20 warn EBADENGINE   required: { node: '20 || >=22' },
+20 warn EBADENGINE   current: { node: 'v21.7.3', npm: '10.9.0' }
+20 warn EBADENGINE }
+21 warn EBADENGINE Unsupported engine {
+21 warn EBADENGINE   package: 'lru-cache@11.1.0',
+21 warn EBADENGINE   required: { node: '20 || >=22' },
+21 warn EBADENGINE   current: { node: 'v21.7.3', npm: '10.9.0' }
+21 warn EBADENGINE }
+22 warn EBADENGINE Unsupported engine {
+22 warn EBADENGINE   package: 'minimatch@10.0.1',
+22 warn EBADENGINE   required: { node: '20 || >=22' },
+22 warn EBADENGINE   current: { node: 'v21.7.3', npm: '10.9.0' }
+22 warn EBADENGINE }
+23 warn EBADENGINE Unsupported engine {
+23 warn EBADENGINE   package: 'path-scurry@2.0.0',
+23 warn EBADENGINE   required: { node: '20 || >=22' },
+23 warn EBADENGINE   current: { node: 'v21.7.3', npm: '10.9.0' }
+23 warn EBADENGINE }
+24 warn EBADENGINE Unsupported engine {
+24 warn EBADENGINE   package: 'rimraf@6.0.1',
+24 warn EBADENGINE   required: { node: '20 || >=22' },
+24 warn EBADENGINE   current: { node: 'v21.7.3', npm: '10.9.0' }
+24 warn EBADENGINE }
+25 silly reify moves {}
+26 silly audit bulk request {
+26 silly audit   '@discordjs/builders': [ '1.10.1' ],
+26 silly audit   '@discordjs/collection': [ '1.5.3', '2.1.1' ],
+26 silly audit   '@discordjs/formatters': [ '0.6.0' ],
+26 silly audit   '@discordjs/rest': [ '2.4.3' ],
+26 silly audit   '@discordjs/util': [ '1.1.1' ],
+26 silly audit   '@discordjs/ws': [ '1.2.1' ],
+26 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+26 silly audit   '@mongodb-js/saslprep': [ '1.2.2' ],
+26 silly audit   '@sapphire/async-queue': [ '1.5.5' ],
+26 silly audit   '@sapphire/shapeshift': [ '4.0.0' ],
+26 silly audit   '@sapphire/snowflake': [ '3.5.3' ],
+26 silly audit   '@types/node': [ '22.14.1' ],
+26 silly audit   '@types/webidl-conversions': [ '7.0.3' ],
+26 silly audit   '@types/whatwg-url': [ '11.0.5' ],
+26 silly audit   '@types/ws': [ '8.18.1' ],
+26 silly audit   '@vladfrangu/async_event_emitter': [ '2.4.6' ],
+26 silly audit   'ansi-regex': [ '6.1.0', '5.0.1' ],
+26 silly audit   'ansi-styles': [ '6.2.1', '4.3.0' ],
+26 silly audit   asynckit: [ '0.4.0' ],
+26 silly audit   axios: [ '1.8.4' ],
+26 silly audit   'balanced-match': [ '1.0.2' ],
+26 silly audit   'brace-expansion': [ '2.0.1' ],
+26 silly audit   bson: [ '6.10.3' ],
+26 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+26 silly audit   'color-convert': [ '2.0.1' ],
+26 silly audit   'color-name': [ '1.1.4' ],
+26 silly audit   'combined-stream': [ '1.0.8' ],
+26 silly audit   'cross-spawn': [ '7.0.6' ],
+26 silly audit   'cyrillic-to-translit-js': [ '3.2.1' ],
+26 silly audit   'delayed-stream': [ '1.0.0' ],
+26 silly audit   'discord-api-types': [ '0.37.120' ],
+26 silly audit   'discord.js': [ '14.18.0' ],
+26 silly audit   'dunder-proto': [ '1.0.1' ],
+26 silly audit   eastasianwidth: [ '0.2.0' ],
+26 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+26 silly audit   'es-define-property': [ '1.0.1' ],
+26 silly audit   'es-errors': [ '1.3.0' ],
+26 silly audit   'es-object-atoms': [ '1.1.1' ],
+26 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+26 silly audit   'fast-deep-equal': [ '3.1.3' ],
+26 silly audit   'follow-redirects': [ '1.15.9' ],
+26 silly audit   'foreground-child': [ '3.3.1' ],
+26 silly audit   'form-data': [ '4.0.2' ],
+26 silly audit   'function-bind': [ '1.1.2' ],
+26 silly audit   'get-intrinsic': [ '1.3.0' ],
+26 silly audit   'get-proto': [ '1.0.1' ],
+26 silly audit   glob: [ '11.0.1' ],
+26 silly audit   gopd: [ '1.2.0' ],
+26 silly audit   'has-symbols': [ '1.1.0' ],
+26 silly audit   'has-tostringtag': [ '1.0.2' ],
+26 silly audit   hasown: [ '2.0.2' ],
+26 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+26 silly audit   isexe: [ '2.0.0' ],
+26 silly audit   jackspeak: [ '4.1.0' ],
+26 silly audit   lodash: [ '4.17.21' ],
+26 silly audit   'lodash.invert': [ '4.3.0' ],
+26 silly audit   'lodash.snakecase': [ '4.1.1' ],
+26 silly audit   'lru-cache': [ '11.1.0' ],
+26 silly audit   'magic-bytes.js': [ '1.11.0' ],
+26 silly audit   'math-intrinsics': [ '1.1.0' ],
+26 silly audit   'memory-pager': [ '1.5.0' ],
+26 silly audit   'mime-db': [ '1.52.0' ],
+26 silly audit   'mime-types': [ '2.1.35' ],
+26 silly audit   minimatch: [ '10.0.1' ],
+26 silly audit   minipass: [ '7.1.2' ],
+26 silly audit   mongodb: [ '6.15.0' ],
+26 silly audit   'mongodb-connection-string-url': [ '3.0.2' ],
+26 silly audit   'package-json-from-dist': [ '1.0.1' ],
+26 silly audit   'path-key': [ '3.1.1' ],
+26 silly audit   'path-scurry': [ '2.0.0' ],
+26 silly audit   'proxy-from-env': [ '1.1.0' ],
+26 silly audit   punycode: [ '2.3.1' ],
+26 silly audit   rimraf: [ '6.0.1' ],
+26 silly audit   'shebang-command': [ '2.0.0' ],
+26 silly audit   'shebang-regex': [ '3.0.0' ],
+26 silly audit   'signal-exit': [ '4.1.0' ],
+26 silly audit   'sparse-bitfield': [ '3.0.3' ],
+26 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+26 silly audit   'strip-ansi': [ '6.0.1', '7.1.0' ],
+26 silly audit   tr46: [ '5.1.1' ],
+26 silly audit   'ts-mixer': [ '6.0.4' ],
+26 silly audit   tslib: [ '2.8.1' ],
+26 silly audit   undici: [ '6.21.1' ],
+26 silly audit   'undici-types': [ '6.21.0' ],
+26 silly audit   'webidl-conversions': [ '7.0.0' ],
+26 silly audit   'whatwg-url': [ '14.2.0' ],
+26 silly audit   which: [ '2.0.2' ],
+26 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0' ],
+26 silly audit   ws: [ '8.18.1' ],
+26 silly audit   dotenv: [ '16.5.0' ]
+26 silly audit }
+27 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 311ms
+28 silly audit report {}
+29 verbose cwd /home/container
+30 verbose os Linux 6.1.0-21-amd64
+31 verbose node v21.7.3
+32 verbose npm  v10.9.0
+33 verbose exit 0
+34 info ok
