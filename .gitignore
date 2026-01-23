@@ -8,3 +8,7 @@ google-credentials.json
 .zip
 .7z
 .rar
+.npm
+.sqlite
+logs/
+.cache/
